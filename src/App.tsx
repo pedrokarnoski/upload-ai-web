@@ -44,11 +44,12 @@ export function App() {
 
           <Separator orientation="vertical" className="h-6" />
 
-          <Button variant="outline">
+          <Button variant="outline" onClick={() => window.open('https://github.com/pedrokarnoski', '_blank')}>
             <Github className="w-4 h-4 mr-2" />
             GitHub
           </Button>
         </div>
+
       </div>
 
       <main className="flex-1 p-6 flex gap-6">
